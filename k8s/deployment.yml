@@ -20,9 +20,10 @@ spec:
         ports:
         - containerPort: 80
         resources:
-        requests:
-        cpu: "100m"
-        limits: "500m"
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "500m"
         volumeMounts:
         - name: html-volume
           mountPath: /usr/share/nginx/html
