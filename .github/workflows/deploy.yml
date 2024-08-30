@@ -59,3 +59,4 @@ jobs:
           kubectl apply -f k8s/ingress.yml
           kubectl apply -f k8s/hpa.yml
           kubectl apply -f k8s/configmap.yml
+          
